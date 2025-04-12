@@ -1,5 +1,4 @@
-import Counter from "./features/counter/Counter";
-import Register from "./pages/Register";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -7,7 +6,8 @@ function App() {
       App
       <div className="">
         {/* <Counter /> */}
-        <Register />
+        {/* <Register /> */}
+        <Login />
       </div>
     </div>
   );
